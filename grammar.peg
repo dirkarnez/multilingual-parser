@@ -1,0 +1,5 @@
+paragraph = sentence+
+sentence = (word sp)+ word punctuation sp?
+word = [^0-9' '.!,]+
+sp = ' '
+punctuation = [.!,]
